@@ -226,7 +226,11 @@ li span{
 
 #main{
     position:relative;
-    margin:200px 0;
+    margin:200px 0 50px 0;
+}
+
+#main > p, #main > div, #main > iframe{
+    opacity:0;
 }
 
 #main > #head{
@@ -234,7 +238,7 @@ li span{
     background-color: rgb(227, 227, 229);
     display:inline-block;
     padding:15px 75px;
-    margin-bottom:100px;
+    margin-bottom:50px;
     float:left;
 
 }
@@ -254,6 +258,33 @@ li span{
 #main > h1{
     position:relative;
     width:100px;
+}
+
+#main #th{
+    clear:both;
+    font-size:2.5em;
+}
+
+#date{
+    font-size:1em;
+    color:rgb(133, 136, 141);
+    font-style:italic;
+    margin-bottom:10px;
+}
+
+.source{
+    font-size:0.9em;
+    color:rgb(133, 136, 141);
+}
+
+.body{
+    margin:0 9%;
+    line-height:35px;
+}
+
+
+#heart{
+    margin-top:10px;
 }
 #root{
     position:relative;

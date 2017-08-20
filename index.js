@@ -77,6 +77,12 @@ $(function() {
         onResize();
     });
 
+    $("#main").children().delay(300).each(function(){
+        $(this).delay(200*($(this).index() + 1)).animate({
+            opacity:1
+        },500);
+    });
+
 
     /*
     $nav.on("mouseover", function(){
